@@ -67,22 +67,23 @@
 }
 .card-sec {
   width: 1140px;
-  height: 1250px;
   margin: 74px auto;
   background-color: rgba(13, 19, 33, 0.02);
   border-radius: 16px;
-  padding: 80px 97px 80px 0;
+  padding: 80px 97px 80px 80px;
 }
 .head-text {
   text-align: center;
   margin: 0px 144px 48px 144px;
 }
 .card-head {
+  text-align: center;
   font-size: 32px;
   font-weight: bolder;
   margin-bottom: 24px;
 }
 .card-subhead {
+  text-align: center;
   font-size: 16px;
   color: rgba(13, 19, 33, 1);
   margin-bottom: 48px;
@@ -123,17 +124,93 @@
   font-weight: 600;
 }
 .video-section {
-  text-align: center;
   margin: auto;
   width: 1140px;
   height: 775px;
+  text-align: center;
+  margin: auto;
 }
 .video-info {
-  margin: auto;
   width: 852px;
   height: 113px;
+  margin: 0px auto 48px;
 }
-.video {
-  padding: 32px;
-  border: 1px solid rgba(13, 19, 33, 0.2);
+.vid-info {
+  margin-bottom: 48px;
+}
+
+.vid {
+  border-radius: 16px;
+}
+.current-target {
+  width: 1140px;
+  margin: 0px auto 111px;
+}
+.ctt {
+  width: 946px;
+  margin: 0 auto 48px;
+}
+.target-card-cont {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+.target-card {
+  width: 364px;
+  padding: 40px;
+  border-radius: 16px;
+}
+.card1 {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+.card2 {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.card3 {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+.crt-head {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+.crt-desc {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.learn-more {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.next-target {
+  width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+.nt-info {
+}
+
+.reactjs {
+  display: flex;
+  gap: 24px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid black;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.react-info {
+  width: 942px;
+  text-align: left;
+}
+.react-head {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.react-desc {
+  font-size: 16px;
+  margin: 8px auto 24px;
 }
